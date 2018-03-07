@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="NYIT">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/"/>
+        <dependent-module archiveName="mysql-connector-java-5.1.17-bin.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/NYIT/mysql-connector-java-5.1.17-bin.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="java-json.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/NYIT/java-json.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="NYIT"/>
+        <property name="java-output-path" value="/NYIT/build/classes"/>
+    </wb-module>
+</project-modules>
